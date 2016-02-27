@@ -1,7 +1,6 @@
-FROM alpine:latest
+FROM alpine:3.3
 
 MAINTAINER Sean Kilgarriff <Seanpkilgarriff@gmail.com>
 
-RUN apk add --update nodejs && rm -rf /var/cache/apk/*
-
-CMD ["node"]
+#Install NodeJs
+RUN apk add --update --no-cache nodejs
