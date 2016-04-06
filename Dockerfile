@@ -1,6 +1,7 @@
-FROM alpine:3.3
+FROM alpine:edge
 
-MAINTAINER Sean Kilgarriff <Seanpkilgarriff@gmail.com>
+MAINTAINER ZZROT LLC <docker@zzrot.com>
 
 #Install NodeJs
+
 RUN apk add --update --no-cache nodejs
