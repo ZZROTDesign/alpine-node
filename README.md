@@ -6,7 +6,7 @@ This is a basic NodeJS setup running on Alpine Linux to minimize the image size.
 
 This image is a base image - attempting to run this image by itself will not work.
 
-Inlude this image in Dockerfiles by writing
+Inlude this image in Dockerfiles by writing:
 
     FROM zzrot/alpine-node
 
