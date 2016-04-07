@@ -4,7 +4,7 @@
 
 This is a basic NodeJS setup running on Alpine Linux to minimize the image size. This is meant to act as a base image for others to build upon.
 
-This image is a base image - attempting to run this image by itself will not work.
+This image is a base image - attempting to run this image without further edits will not work.
 
 Inlude this image in Dockerfiles by writing:
 
