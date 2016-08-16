@@ -10,7 +10,7 @@ Inlude this image in Dockerfiles by writing:
 
     FROM zzrot/alpine-node
 
-## Contributing to Alpine-Ghost
+## Contributing to Alpine-node
 
 ### Team members
 
